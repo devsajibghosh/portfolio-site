@@ -1,0 +1,34 @@
+body{
+  box-sizing: border-box;
+  background-color: #2C3A47;
+}
+nav{
+  background: #182C61;
+}
+.border{
+ outline-color: rgb(255, 0, 123);
+ text-align: center;
+ outline-width: 0.5px;
+}
+.border::placeholder{
+ text-transform: lowercase;
+ color: #2c3e50;
+}
+button{
+  text-shadow: 2px 2px 4px red;
+}
+.social-links{
+  margin-top: 10%;
+  justify-content: space-between;
+}
+.social-links .fa-brands{
+  margin-left: 20px;
+  font-size: 20px;
+}
+
+.social-links .fa-brands:hover{
+  color: aqua;
+}
+.social-links a .fa-brands{
+  color: white;
+}
